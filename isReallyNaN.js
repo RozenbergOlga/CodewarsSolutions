@@ -1,1 +1,16 @@
-//isReallyNaN
+
+
+
+
+
+
+
+
+
+
+
+
+
+function findStrangeValue() {
+    return NaN;
+}
