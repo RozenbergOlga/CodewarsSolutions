@@ -1,0 +1,4 @@
+function SafeInteger(n) {
+if(Number.isSafeInteger(n) == true) return true;
+return false;
+}
