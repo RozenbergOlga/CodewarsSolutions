@@ -1,0 +1,8 @@
+function slope(points)
+{
+ const [a, b, c, d] = points;
+ return a === c ? "undefined" : (d - b) / (c - a) +'';
+}
+
+8 kyu
+Find the Slope
