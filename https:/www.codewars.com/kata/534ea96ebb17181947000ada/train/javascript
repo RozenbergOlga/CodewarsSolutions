@@ -1,0 +1,8 @@
+function breakChocolate(n,m) {
+let rez = m * n - 1;
+if (m === 0 || n === 0) return 0;
+else return rez;
+}
+
+7 kyu
+Breaking chocolate problem
