@@ -1,0 +1,7 @@
+let [sandwiches, salads, wraps,  frenchFries] = [4, 6, 5, 10];
+
+
+let totalPrice =  (sandwiches * 8) + (salads * 7) + (wraps * 6.5) + (frenchFries * 1.2);
+
+
+Grasshopper - Shopping list (retired)
