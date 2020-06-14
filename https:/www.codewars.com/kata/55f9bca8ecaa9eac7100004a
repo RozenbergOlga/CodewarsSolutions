@@ -1,0 +1,9 @@
+function past(h, m, s){
+let p;
+  if (0 <= h <= 23 && 0 <= m <= 59 && 0 <= s <= 59)
+   p = ( h * 3600 + m * 60 + s) * 1000;
+  return p;
+}
+
+8 kyu
+Beginner Series #2 Clock
