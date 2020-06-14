@@ -1,0 +1,7 @@
+function converter (mpg) {
+  let lpk = mpg * 1.609344 / 4.54609188;
+  return +lpk.toFixed(2);
+}
+
+8 kyu
+Miles per gallon to kilometers per liter
