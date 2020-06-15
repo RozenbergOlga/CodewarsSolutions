@@ -1,0 +1,7 @@
+function addFive(num) {
+  var total = num + 5
+  return total;
+}
+
+8 kyu
+Grasshopper - Basic Function Fixer
