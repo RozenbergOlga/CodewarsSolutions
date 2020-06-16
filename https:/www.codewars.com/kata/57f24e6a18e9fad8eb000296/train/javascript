@@ -1,0 +1,10 @@
+const arr = ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
+
+function howMuchILoveYou(nbPetals) {
+
+return arr[(nbPetals - 1) % arr.length];
+   
+  }
+  
+  8 kyu
+I love you, a little , a lot, passionately ... not at all
