@@ -1,0 +1,7 @@
+function typeOfSum(a, b) {
+
+ return (typeof (a + b));
+}
+
+8 kyu
+Type of sum
