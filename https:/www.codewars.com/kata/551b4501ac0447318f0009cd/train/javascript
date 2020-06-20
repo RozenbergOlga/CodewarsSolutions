@@ -1,0 +1,7 @@
+function booleanToString(b){
+  if( Boolean(b) === true){ return String (true);}
+  else {return String(false);}
+}
+
+8 kyu
+Convert a Boolean to a String
