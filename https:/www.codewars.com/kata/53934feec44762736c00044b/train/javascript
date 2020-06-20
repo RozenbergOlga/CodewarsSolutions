@@ -1,0 +1,4 @@
+var a = String(123);
+
+8 kyu
+Number toString
