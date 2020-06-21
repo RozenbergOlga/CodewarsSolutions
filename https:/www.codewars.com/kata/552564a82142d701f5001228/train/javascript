@@ -1,0 +1,7 @@
+function discoverOriginalPrice(discountedPrice, salePercentage){
+let totalPrice = discountedPrice * 100 / (100 - salePercentage);
+  return  +(totalPrice.toFixed(2));
+}
+
+7 kyu
+Discover The Original Price
