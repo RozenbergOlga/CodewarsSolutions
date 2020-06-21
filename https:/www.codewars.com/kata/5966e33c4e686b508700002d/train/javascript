@@ -1,0 +1,6 @@
+function sumStr(a,b) {
+return Number(a) + Number(b) +'';
+  }
+  
+  8 kyu
+Sum The Strings
