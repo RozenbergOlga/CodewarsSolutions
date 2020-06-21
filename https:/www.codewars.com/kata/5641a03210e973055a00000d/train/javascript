@@ -1,0 +1,6 @@
+function twoDecimalPlaces(n) {
+  return +(n.toFixed(2));
+}
+
+8 kyu
+Formatting decimal places #0
