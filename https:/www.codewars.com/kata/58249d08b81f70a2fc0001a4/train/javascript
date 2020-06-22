@@ -1,0 +1,6 @@
+const closestMultiple10 = num => {
+  return Math.round(num / 10) * 10;
+};
+
+7 kyu
+Return the closest number multiple of 10
