@@ -1,0 +1,6 @@
+function howManyTimes(annualPrice, individualPrice) {
+  return Math.ceil(annualPrice / individualPrice);
+}
+
+7 kyu
+How many times should I go?
