@@ -1,0 +1,7 @@
+function trueOrFalse(val){
+  if (Boolean(val) == false )    return 'false';             
+  else     return 'true';
+}
+
+8 kyu
+Training JS #6: Basic data types--Boolean and conditional statements if..else
