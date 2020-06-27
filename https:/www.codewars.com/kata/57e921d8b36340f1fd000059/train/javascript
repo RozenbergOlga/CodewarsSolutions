@@ -1,0 +1,7 @@
+function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+if (dolphin === true) youSpeed *=2;
+return pontoonDistance/youSpeed < sharkDistance/sharkSpeed ? 'Alive!' : 'Shark Bait!';
+}
+
+8 kyu
+Holiday VI - Shark Pontoon
