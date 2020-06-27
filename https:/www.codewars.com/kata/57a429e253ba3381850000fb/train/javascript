@@ -1,0 +1,10 @@
+function bmi(weight, height) {
+  let f = weight/(height**2);
+  if (f <= 18.5) return 'Underweight';
+  if (f <= 25.0) return 'Normal';
+  if (f <= 30.0) return 'Overweight';
+  if (f > 30) return 'Obese';
+}
+
+8 kyu
+Calculate BMI
