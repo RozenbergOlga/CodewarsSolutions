@@ -1,0 +1,12 @@
+function fuelPrice(litres, pricePerLiter) {
+let d = litres * pricePerLiter;
+  if (litres >0 && litres <2) return +(d.toFixed(2));
+  if (litres >=2 && litres <4) return +(d-(litres*0.05)).toFixed(2);
+  if (litres >=4 && litres <6) return +(d-(litres*0.1)).toFixed(2);
+  if (litres >=6 && litres <8) return +(d-(litres*0.15)).toFixed(2);
+  if (litres >= 8 && litres <10) return +(d-(litres*0.20)).toFixed(2);
+  if (litres >=10) return +(d - (litres*0.25)).toFixed(2);
+ }
+ 
+ 8 kyu
+Fuel Calculator
