@@ -1,0 +1,20 @@
+function getSum( a,b ){
+  let sum = 0;
+  let begin;
+  let end;
+  if (a < b){
+  begin = a;
+  end = b;}
+else{
+ begin = b;
+ end = a;
+}
+  for (let i= begin; i <= end; i++){
+  
+  sum = sum + i;
+}
+ return sum;
+ }
+ 
+ 7 kyu
+Beginner Series #3 Sum of Numbers
