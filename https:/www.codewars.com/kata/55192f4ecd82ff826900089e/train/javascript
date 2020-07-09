@@ -1,0 +1,9 @@
+function divide(weight){
+  if (weight <= 2 || weight >100) {return false;}
+  if (weight % 2 !== 0) {return false;}
+  if ((weight-2) % 2!==0){ return false;}
+  else { return true;}
+}
+
+8 kyu
+Watermelon
