@@ -1,0 +1,4 @@
+function describeAge(age){var a="You're a(n) ";return age<13?a+"kid":age>12&&age<18?a+"teenager":age>17&&age<65?a+"adult":a+"elderly";}
+
+8 kyu
+Be Concise I - The Ternary Operator
