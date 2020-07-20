@@ -1,0 +1,11 @@
+function isPowerOfTwo(n){
+  while (n>0){
+  if (n===1) return true;
+  n/=2;
+}
+return false;
+}
+
+7 kyu
+Power of two
+
