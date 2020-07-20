@@ -1,0 +1,14 @@
+function differenceOfSquares(n){
+  let s1 = 0;
+  let s2 = 0;
+  let a = 1;
+  while (a <= n ) {
+  s1 = s1 + a;
+  s2 = s2 +(a**2);
+  a++;
+}
+return (s1**2 - s2);
+}
+
+7 kyu
+Difference Of Squares
