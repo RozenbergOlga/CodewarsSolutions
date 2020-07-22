@@ -1,0 +1,14 @@
+function SeriesSum(n)
+{
+if (!n) return '0.00';
+  let p = 1;
+  let a = 1;
+  for (let i = 1; i < n; i++){
+  a +=3;
+  p = p + 1/a;
+  }
+  return p.toFixed(2);
+}
+
+7 kyu
+Sum of the first nth term of Series
