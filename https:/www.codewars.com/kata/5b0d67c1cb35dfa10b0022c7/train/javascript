@@ -1,0 +1,11 @@
+function squaresNeeded(grains){
+let c = 0;
+if (grains <1) return 0;
+while( Math.pow(2, c) <= grains) {
+c++;
+}
+return c;
+}
+
+7 kyu
+The wheat/rice and chessboard problem
