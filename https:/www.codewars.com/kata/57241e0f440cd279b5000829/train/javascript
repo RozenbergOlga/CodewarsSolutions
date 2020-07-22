@@ -1,0 +1,11 @@
+function sumMul(n,m){
+ if (m < 0) return 'INVALID';
+if (n===0) return 'INVALID';
+let s = 0;
+for (let i = n; i<=m; i+=n){
+s= s+i;}
+return s;
+}
+
+8 kyu
+Sum of Multiples
