@@ -1,0 +1,14 @@
+function numberToPower(number, power){
+let count = 0;
+let s = 1;
+if (power === 0) return 1;
+  do{
+  s = s * number;
+  count++;
+  }
+  while ( count < power);
+  return s;
+}
+
+8 kyu
+Power
