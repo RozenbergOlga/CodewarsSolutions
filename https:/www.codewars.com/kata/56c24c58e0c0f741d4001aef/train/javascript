@@ -1,0 +1,7 @@
+const isReallyNaN = (val) => {
+  if(Number.isNaN(val) == true) return true;
+  return false;
+}
+
+8 kyu
+isReallyNaN
