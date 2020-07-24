@@ -1,0 +1,12 @@
+var FilterString = function(value) {
+let str = value;
+let str1='';
+  for(let i =0; i < str.length; i++){
+    if(isNaN(str[i]) == false) 
+    str1 += str[i];
+    }
+    return +str1;
+}
+
+7 kyu
+Filter the number
