@@ -1,0 +1,8 @@
+function makeNegative(num) {
+let n = -1;
+  if (num<0) return num;
+  return num*n;
+}
+
+8 kyu
+Return Negative
