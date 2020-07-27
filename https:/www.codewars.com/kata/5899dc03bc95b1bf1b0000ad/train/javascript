@@ -1,0 +1,10 @@
+function invert(array) {
+let arr1 = [];
+let n = -1;
+for (let i = 0; i < array.length; i++){
+ arr1.push(array[i]*n);}
+   return arr1;
+}
+
+8 kyu
+Invert values
