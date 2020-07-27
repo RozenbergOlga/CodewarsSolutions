@@ -1,0 +1,7 @@
+function opposite(number) {
+  let n = -1;
+  return number*n;
+}
+
+8 kyu
+Opposite number
