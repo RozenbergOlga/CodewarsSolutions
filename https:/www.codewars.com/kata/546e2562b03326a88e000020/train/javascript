@@ -1,0 +1,12 @@
+function squareDigits(num){
+let str = num + '';
+let rez = '';
+for (let i = 0; i < str.length; i++){
+let x = (+str[i])**2;
+rez = rez +x;
+}
+return +rez;
+}
+
+7 kyu
+Square Every Digit
