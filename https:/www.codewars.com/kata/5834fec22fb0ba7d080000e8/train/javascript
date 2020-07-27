@@ -1,0 +1,6 @@
+function sixToast(num) {
+  return Math.abs(Math.abs(num) - 6);
+}
+
+8 kyu
+BASIC: Making Six Toast.
