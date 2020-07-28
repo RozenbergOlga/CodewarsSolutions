@@ -1,0 +1,14 @@
+function squares(x, n) {
+let arr = [];
+let y = x;
+if (n===0||n<0) return [];
+arr.push(x);
+for (i = 0; i<(n-1); i++){
+  y = Math.pow(y,2); 
+ arr.push(y);
+ }
+ return arr;
+}
+
+7 kyu
+Squares sequence
