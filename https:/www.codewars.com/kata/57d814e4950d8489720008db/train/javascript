@@ -1,0 +1,11 @@
+function index(array, n){
+let a ;
+if (n > array.length-1) return -1;
+for ( let i = 0; i < array.length; i++){
+if (i === n)  a = array[i];
+}
+return Math.pow(a,n);
+}
+
+8 kyu
+N-th Power
