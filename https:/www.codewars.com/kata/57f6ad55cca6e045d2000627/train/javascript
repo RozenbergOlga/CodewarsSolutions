@@ -1,0 +1,11 @@
+function squareOrSquareRoot(array) {
+const arr = [];
+for (let i = 0; i < array.length; i++){
+if(Number.isInteger(Math.pow(array[i], 0.5)) === true) arr.push(Math.pow(array[i], 0.5));
+ if(Number.isInteger(Math.pow(array[i], 0.5)) === false)  arr.push(Math.pow(array[i], 2));
+ }
+  return arr;  
+}
+
+8 kyu
+To square(root) or not to square(root)
