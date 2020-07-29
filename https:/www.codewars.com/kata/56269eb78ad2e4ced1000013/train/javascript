@@ -1,0 +1,9 @@
+function findNextSquare(sq) {
+//let a = Math.sqrt(sq);
+  if (Number.isInteger(Math.sqrt(sq)) === true) return Math.pow((Math.sqrt(sq) +1),2);
+  return -1;
+}
+
+
+7 kyu
+Find the next perfect square!
