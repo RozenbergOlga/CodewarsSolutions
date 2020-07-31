@@ -1,0 +1,11 @@
+function cutCube(volume,n){
+let a = volume/n;
+let b = Math.cbrt(a);
+if (Number.isInteger(Math.cbrt(n)) === false) return false;
+  if (Number.isInteger(b) === true) return true;
+  return false;
+  
+}
+
+8 kyu
+Training JS #34: methods of Math---pow() sqrt() and cbrt()
