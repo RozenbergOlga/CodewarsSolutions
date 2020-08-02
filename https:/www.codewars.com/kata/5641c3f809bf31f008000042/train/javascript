@@ -1,0 +1,11 @@
+function twoDecimalPlaces(number) {
+let a = (number.toFixed(4));
+let str = '';
+for (let i = 0; i < a.length-2; i++){
+str += a[i];
+}
+return +str;
+}
+
+7 kyu
+Formatting decimal places #1
