@@ -1,0 +1,7 @@
+8 kyu
+Parse float
+
+function parseF(s) {
+if (parseFloat(s) == s) return parseFloat(s);
+  return null;
+}
