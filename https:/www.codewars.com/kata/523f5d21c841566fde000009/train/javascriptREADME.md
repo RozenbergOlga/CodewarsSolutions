@@ -1,0 +1,6 @@
+6 kyu
+Array.diff
+
+ function arrayDiff(a, b) {
+ return a.filter(el => !b.includes(el)):
+}
