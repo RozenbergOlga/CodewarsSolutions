@@ -1,0 +1,7 @@
+8 kyu
+Jenny's secret message
+
+function greet(name){
+if (name === 'Johnny') return "Hello, my love!";
+  return "Hello, " +`${name}` + "!";
+}
