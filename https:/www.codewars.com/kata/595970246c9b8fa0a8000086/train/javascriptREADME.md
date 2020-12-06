@@ -1,0 +1,11 @@
+8 kyu
+Capitalization and Mutability
+
+function capitalizeWord(word) {
+  let arr = [];
+ for(let i =0; i < word.length; i++){
+  if(i === 0) arr.push(word[i].toUpperCase());
+   if(i > 0) arr.push(word[i]);
+ }
+return arr.join('');
+ }
