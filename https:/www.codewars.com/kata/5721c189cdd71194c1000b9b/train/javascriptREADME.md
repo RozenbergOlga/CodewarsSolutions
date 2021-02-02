@@ -1,0 +1,12 @@
+8 kyu
+Training JS #11: loop statement --break,continue
+
+function grabDoll(dolls){
+    var bag=[];
+    for(let i = 0; i < dolls.length; i++){
+      if(dolls[i] !== "Hello Kitty" && dolls[i] !== "Barbie doll") continue;
+        bag.push(dolls[i]);
+      if(bag.length === 3) {break;}
+   }
+  return bag;
+}
