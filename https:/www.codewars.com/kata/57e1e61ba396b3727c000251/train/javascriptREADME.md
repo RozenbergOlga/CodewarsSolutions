@@ -1,0 +1,6 @@
+8 kyu
+String cleaning
+
+function stringClean(s){
+  return s.replace(/[0-9]/g, '');
+}
