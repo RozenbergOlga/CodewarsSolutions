@@ -1,0 +1,7 @@
+
+2082% of 274670 of 674jonbstrong2 Issues Reported
+
+
+function reverseString(str) {
+return str.split('').reverse().join('');
+}
