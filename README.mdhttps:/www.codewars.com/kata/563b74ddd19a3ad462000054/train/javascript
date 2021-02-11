@@ -1,0 +1,7 @@
+8 kyu
+Stringy Strings
+
+function stringy(size) {  
+if(size%2===0)  return '10'.repeat(size/2);
+  if(size%2!==0) return '10'.repeat((size-1)/2) + '1';
+}
