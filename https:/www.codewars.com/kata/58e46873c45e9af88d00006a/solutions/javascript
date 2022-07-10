@@ -1,0 +1,19 @@
+6 kyu
+Program a Calculator #1 - Points in 3D Space
+
+class Point {
+  constructor(x, y, z) {
+    this.x = x;
+    this.y = y;
+    this.z = z;
+  }
+  static getOrigin() {
+    return new Point(0, 0, 0);
+  }
+  getDistanceFromOrigin() {
+    return Math.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2) + Math.pow(this.z, 2));
+  }
+  getDistanceFromPoint(b) {
+    return Math.sqrt(Math.pow(this.x - b.x, 2) + Math.pow(this.y - b.y, 2) + Math.pow(this.z - b.z, 2));
+  }
+}
